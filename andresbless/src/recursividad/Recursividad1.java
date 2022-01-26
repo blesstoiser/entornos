@@ -29,4 +29,8 @@ public class Recursividad1 {
         return n + factorial(n - 1);
         
     }
+
+    public static int metodoQueNoSirveDeNada() {
+       System.exit(0);
+    }
 }
